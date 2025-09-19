@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://w32dim3ll21"]
+
+[ext_resource type="Texture2D" uid="uid://bvdsx6756ntmg" path="res://Assets/icon.svg" id="1_hijwb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hijwb"]
+size = Vector2(20, 19.6774)
+
+[node name="Moving Platform A" type="AnimatableBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.193)
+texture = ExtResource("1_hijwb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 0.2)
+scale = Vector2(1.24, 1.24)
+shape = SubResource("RectangleShape2D_hijwb")
+one_way_collision = true
