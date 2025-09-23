@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758580938
+::res://::1758665460
+export_presets.cfg::TextFile::-1::1758665456::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::987775935465999014::1758160630::1758160631::1::::<><><>0<>0<>7bbc5c00968ba77a17cb00475a3f2499<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile/TextFile::-1::1758160630::0::1::::<><><>0<>0<><>::
 Test.tscn::PackedScene::8099162704508995467::1758160631::0::1::::<><><>0<>0<><>::uid://ocqr4kaowgws::::res://icon.svg
@@ -17,13 +18,19 @@ utils.gd::GDScript/GDScript::5251015809120159908::1758160630::0::1::::<>RefCount
 Dirt block.png::CompressedTexture2D/CompressedTexture2D::8316474313093131641::1758157713::1758157738::1::::<><><>0<>0<>dba92e0079d0fdbed4b16bf88f80a7b7<>res://.godot/imported/Dirt block.png-d3bd86c0a822142d22a8419680b1965e.ctex::
 Grass block.png::CompressedTexture2D/CompressedTexture2D::2126520636976553099::1758156347::1758156386::1::::<><><>0<>0<>0e24f907cef76bcfd494b3ef7dd2f44b<>res://.godot/imported/Grass block.png-92413c6d6e6b417d27509538fa047037.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::3867715191546187650::1757038235::1757707718::1::::<><><>0<>0<>de7ccdc934c7a031961b11430030ae45<>res://.godot/imported/icon.svg-8193eb3d66a1b5143b8bb4c28c1dc139.ctex::
+::res://Builds/::1758665460
+index.apple-touch-icon.png::CompressedTexture2D::272130702295986997::1758665456::1758665463::1::::<><><>0<>0<>1620e8c3061c09d537a943f60e58f98d<>res://.godot/imported/index.apple-touch-icon.png-db11d6c25d537f7c316262c9c5b1fe9a.ctex::
+index.icon.png::CompressedTexture2D::6056617258157205376::1758665456::1758665463::1::::<><><>0<>0<>f3139570595744303be28e618238b04f<>res://.godot/imported/index.icon.png-4fa15c39b3a237e06f05f7d127b3a400.ctex::
+index.png::CompressedTexture2D::5525016473430297834::1758665456::1758665463::1::::<><><>0<>0<>1dc525c14e05b0f2c764b0167e72c66a<>res://.godot/imported/index.png-e712e2e5da2bf02ac062fa90dbca0c85.ctex::
 ::res://images/::1758160639
 godotwaka2.png::CompressedTexture2D/CompressedTexture2D::7026850610005011835::1758160630::1758160631::1::::<><><>0<>0<>810b540a66b6e3b66a13986e88af977c<>res://.godot/imported/godotwaka2.png-7d3d010fb4adc0d433467ab1cc4754ed.ctex::
 godotwaka.png::CompressedTexture2D/CompressedTexture2D::7932361111412089001::1758160630::1758160631::1::::<><><>0<>0<>b1dc139e8838b61e9cb033db1ca4f185<>res://.godot/imported/godotwaka.png-ef0518417b4f997d237759e5551dd05d.ctex::
 icon.jpg::CompressedTexture2D/CompressedTexture2D::3122668444336440389::1758160630::1758160631::1::::<><><>0<>0<>e0b87e0d780caf0d81474113c8024455<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
-::res://Scenes/::1758377231
-Character.tscn::PackedScene::2673413306774238142::1758377231::0::1::::<><><>0<>0<><>::uid://bvdsx6756ntmg::::res://Assets/icon.svg<>uid://b16av228ib5f0::::res://Scripts/character.gd
-Game.tscn::PackedScene::661974256040084060::1758377231::0::1::::<><><>0<>0<><>::uid://bedayx6gk4ee5::::res://Scenes/Character.tscn<>uid://5kdqp0dfv1ed::::res://Assets/Grass block.png<>uid://dqqtd8ebawdmf::::res://Assets/Dirt block.png<>uid://w32dim3ll21::::res://Scenes/moving_platform_a.tscn
-moving_platform_a.tscn::PackedScene::47164773333782516::1758377231::0::1::::<><><>0<>0<><>::uid://bvdsx6756ntmg::::res://Assets/icon.svg
-::res://Scripts/::1758244781
-character.gd::GDScript::4275365291680105891::1758244781::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://Scenes/::1758663544
+Character.tscn::PackedScene::2673413306774238142::1758663544::0::1::::<><><>0<>0<><>::uid://bvdsx6756ntmg::::res://Assets/icon.svg<>uid://b16av228ib5f0::::res://Scripts/character.gd
+Game.tscn::PackedScene::661974256040084060::1758663544::0::1::::<><><>0<>0<><>::uid://bedayx6gk4ee5::::res://Scenes/Character.tscn<>uid://5kdqp0dfv1ed::::res://Assets/Grass block.png<>uid://dqqtd8ebawdmf::::res://Assets/Dirt block.png<>uid://w32dim3ll21::::res://Scenes/moving_platform_a.tscn<>uid://dg8i783rn8joj::::res://Scenes/kill_zone.tscn
+moving_platform_a.tscn::PackedScene::47164773333782516::1758663544::0::1::::<><><>0<>0<><>::uid://bvdsx6756ntmg::::res://Assets/icon.svg
+kill_zone.tscn::PackedScene::7649064237454719361::1758663544::0::1::::<><><>0<>0<><>::uid://dg01ywn3iedig::::res://Scripts/kill_zone.gd
+::res://Scripts/::1758591815
+character.gd::GDScript::4275365291680105891::1758591815::0::1::::<>CharacterBody2D<><>0<>0<><>::
+kill_zone.gd::GDScript::7633627234503841538::1758587702::0::1::::<>Area2D<><>0<>0<><>::
