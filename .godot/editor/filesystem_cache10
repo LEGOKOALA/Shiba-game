@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758925235
+::res://::1758926740
 export_presets.cfg::TextFile/TextFile::-1::1758665456::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::987775935465999014::1758160630::1758160631::1::::<><><>0<>0<>7bbc5c00968ba77a17cb00475a3f2499<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile/TextFile::-1::1758160630::0::1::::<><><>0<>0<><>::
@@ -33,7 +33,7 @@ godotwaka.png::CompressedTexture2D/CompressedTexture2D::7932361111412089001::175
 icon.jpg::CompressedTexture2D/CompressedTexture2D::3122668444336440389::1758160630::1758160631::1::::<><><>0<>0<>e0b87e0d780caf0d81474113c8024455<>res://.godot/imported/icon.jpg-64f68b30ea939aa8019167e67dffb2db.ctex::
 ::res://Scenes/::1758758903
 Character.tscn::PackedScene/PackedScene::2673413306774238142::1758672602::0::1::::<><><>0<>0<><>::uid://bvdsx6756ntmg::::res://Assets/icon.svg<>uid://b16av228ib5f0::::res://Scripts/character.gd
-Game.tscn::PackedScene::661974256040084060::1758758903::0::1::::<><><>0<>0<><>::uid://bedayx6gk4ee5::::res://Scenes/Character.tscn<>uid://uqqbws4wwq0::::res://Assets/Sky.2.png<>uid://5kdqp0dfv1ed::::res://Assets/Grass block.png<>uid://dxy0l12wsoi35::::res://Assets/Sky.1.png<>uid://c8nc48ovbf2np::::res://Assets/SkyTransTop.png<>uid://dqqtd8ebawdmf::::res://Assets/Dirt block.png<>uid://b88bhjb5ubjso::::res://Assets/SkyTransRight.png<>uid://w32dim3ll21::::res://Scenes/moving_platform_a.tscn<>uid://cdcvp4i3st7j8::::res://Assets/SkyTransLeft.png<>uid://dg8i783rn8joj::::res://Scenes/kill_zone.tscn
+Game.tscn::PackedScene/PackedScene::661974256040084060::1758758903::0::1::::<><><>0<>0<><>::uid://bedayx6gk4ee5::::res://Scenes/Character.tscn<>uid://uqqbws4wwq0::::res://Assets/Sky.2.png<>uid://5kdqp0dfv1ed::::res://Assets/Grass block.png<>uid://dxy0l12wsoi35::::res://Assets/Sky.1.png<>uid://c8nc48ovbf2np::::res://Assets/SkyTransTop.png<>uid://dqqtd8ebawdmf::::res://Assets/Dirt block.png<>uid://b88bhjb5ubjso::::res://Assets/SkyTransRight.png<>uid://w32dim3ll21::::res://Scenes/moving_platform_a.tscn<>uid://cdcvp4i3st7j8::::res://Assets/SkyTransLeft.png<>uid://dg8i783rn8joj::::res://Scenes/kill_zone.tscn
 kill_zone.tscn::PackedScene/PackedScene::7649064237454719361::1758672602::0::1::::<><><>0<>0<><>::uid://dg01ywn3iedig::::res://Scripts/kill_zone.gd
 moving_platform_a.tscn::PackedScene/PackedScene::47164773333782516::1758672602::0::1::::<><><>0<>0<><>::uid://bvdsx6756ntmg::::res://Assets/icon.svg
 ::res://Scripts/::1758668942

@@ -97,3 +97,6 @@ shape = SubResource("WorldBoundaryShape2D_7lihs")
 
 [node name="Moving Platform A" parent="Platforms" instance=ExtResource("4_kldst")]
 position = Vector2(24, -34)
+
+[node name="Moving Platform A" parent="." instance=ExtResource("4_kldst")]
+position = Vector2(454, -61)
