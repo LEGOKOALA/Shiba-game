@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=4 uid="uid://jowvb5h633ym"]
+[gd_scene load_steps=26 format=4 uid="uid://jowvb5h633ym"]
 
 [ext_resource type="PackedScene" uid="uid://bedayx6gk4ee5" path="res://Scenes/Character.tscn" id="1_iukft"]
 [ext_resource type="Texture2D" uid="uid://uqqbws4wwq0" path="res://Assets/Sky.2.png" id="2_fgofq"]
@@ -65,6 +65,9 @@ sources/2 = SubResource("TileSetAtlasSource_fgofq")
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_7lihs"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3so38"]
+size = Vector2(33, 33)
+
 [node name="Game" type="Node2D"]
 
 [node name="Game Layers" type="Node2D" parent="."]
@@ -107,7 +110,14 @@ scale = Vector2(0.499016, 0.500165)
 [node name="Enemies" type="Node2D" parent="."]
 
 [node name="enemy" parent="Enemies" instance=ExtResource("11_3so38")]
-position = Vector2(272, -64)
+position = Vector2(261, -64)
+
+[node name="KillZone2" parent="Enemies/enemy" instance=ExtResource("5_b2bpf")]
+position = Vector2(-8, -16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemies/enemy/KillZone2"]
+position = Vector2(8, -0.5)
+shape = SubResource("RectangleShape2D_3so38")
 
 [node name="Platforms2" type="Node2D" parent="."]
 
