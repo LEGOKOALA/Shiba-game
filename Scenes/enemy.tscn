@@ -35,11 +35,11 @@ sprite_frames = SubResource("SpriteFrames_afpow")
 autoplay = "default"
 
 [node name="RayCastRight" type="RayCast2D" parent="."]
-position = Vector2(0, -16)
+position = Vector2(0, -6)
 target_position = Vector2(18, 0)
 
 [node name="RayCastLeft" type="RayCast2D" parent="."]
-position = Vector2(1, -16)
-target_position = Vector2(-19, 0)
+position = Vector2(0, -6)
+target_position = Vector2(-18, 0)
 collide_with_areas = true
 collide_with_bodies = false
