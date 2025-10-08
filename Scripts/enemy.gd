@@ -19,13 +19,10 @@ func _physics_process(delta: float) -> void:
 	if ray_cast_right.is_colliding():
 		direction = -1
 		animated_sprite.flip_h = true
-		print("Right hit:", ray_cast_right.get_collider())
 	elif ray_cast_left.is_colliding():
 		direction = 1
 		animated_sprite.flip_h = false
-		print("Left hit:", ray_cast_left.get_collider())
 	
-	print(direction)
 	# Only walk when grounded
 	if is_on_floor():
 		velocity.x = direction * SPEED
