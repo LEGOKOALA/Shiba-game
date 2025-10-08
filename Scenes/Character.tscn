@@ -1,17 +1,17 @@
 [gd_scene load_steps=6 format=3 uid="uid://bedayx6gk4ee5"]
 
-[ext_resource type="Texture2D" uid="uid://bvdsx6756ntmg" path="res://Assets/icon.svg" id="1_0y7nr"]
 [ext_resource type="Script" uid="uid://b16av228ib5f0" path="res://Scripts/character.gd" id="1_jo2ib"]
+[ext_resource type="Texture2D" uid="uid://da42h5c18w23y" path="res://Assets/pixilart-drawing (3).png" id="2_jo2ib"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_jo2ib"]
-atlas = ExtResource("1_0y7nr")
-region = Rect2(0, 0, 128, 128)
+[sub_resource type="AtlasTexture" id="AtlasTexture_677pu"]
+atlas = ExtResource("2_jo2ib")
+region = Rect2(0, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_677pu"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_jo2ib")
+"texture": SubResource("AtlasTexture_677pu")
 }],
 "loop": true,
 "name": &"Idle",
@@ -27,8 +27,8 @@ collision_layer = 3
 script = ExtResource("1_jo2ib")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(1.49012e-07, -16)
-scale = Vector2(0.25, 0.25)
+position = Vector2(6.85453e-07, -16)
+scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_677pu")
 animation = &"Idle"
 autoplay = "Idle"
