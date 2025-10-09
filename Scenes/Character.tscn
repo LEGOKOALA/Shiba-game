@@ -1,15 +1,25 @@
-[gd_scene load_steps=7 format=3 uid="uid://bedayx6gk4ee5"]
+[gd_scene load_steps=12 format=3 uid="uid://bedayx6gk4ee5"]
 
 [ext_resource type="Script" uid="uid://b16av228ib5f0" path="res://Scripts/character.gd" id="1_jo2ib"]
 [ext_resource type="Texture2D" uid="uid://cs0aetnkhbyp4" path="res://Assets/pixil-frame-0 (4).png" id="2_677pu"]
 [ext_resource type="Texture2D" uid="uid://dxk12lw0a6fc2" path="res://Assets/pixil-frame-0 (5).png" id="3_677pu"]
+[ext_resource type="Texture2D" uid="uid://blafdpy1ceutq" path="res://Assets/pixil-frame-0 (7).png" id="3_vdqda"]
+[ext_resource type="Texture2D" uid="uid://8d663x55n1um" path="res://Assets/pixil-frame-0 (10).png" id="5_xloa1"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_v7dgu"]
 atlas = ExtResource("2_677pu")
 region = Rect2(0, 0, 16, 16)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_vdqda"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_4b18b"]
+atlas = ExtResource("3_vdqda")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xloa1"]
 atlas = ExtResource("3_677pu")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_peemv"]
+atlas = ExtResource("5_xloa1")
 region = Rect2(0, 0, 16, 16)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_677pu"]
@@ -19,12 +29,21 @@ animations = [{
 "texture": SubResource("AtlasTexture_v7dgu")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_vdqda")
+"texture": SubResource("AtlasTexture_4b18b")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xloa1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_peemv")
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 3.0
+"speed": 6.0
 }]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vdqda"]
+radius = 8.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 z_index = 5
@@ -37,7 +56,8 @@ scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_677pu")
 animation = &"Idle"
 autoplay = "Idle"
-frame_progress = 0.615579
+frame_progress = 0.426407
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(-14, -32, -4, -32, -4, -30, 6, -30, 6, -28, 8, -28, 8, -22, 10, -22, 10, -16, 8, -16, 8, -14, 6, -14, 6, -4, 4, -4, 4, -2, 2, -2, 2, 0, -4, 0, -4, -2, -6, -2, -6, -4, -8, -4, -8, -12, -6, -12, -6, -14, -8, -14, -8, -16, -10, -16, -10, -18, -12, -18, -12, -24, -14, -24)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -15)
+shape = SubResource("CapsuleShape2D_vdqda")
